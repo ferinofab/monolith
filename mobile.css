@@ -1,0 +1,40 @@
+@media (max-width:1600px){
+    header {
+        position: relative;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+    }
+
+    nav ul li {
+        font-size: 9px;
+    }
+
+    ul li a {
+        transition: .3s linear;
+        padding: 2px 4px;
+    }
+
+    .nav_btn, .footer_btn{
+        background-color: #00BFA6;
+        border: none;
+        border-radius: 13px;
+        color: #212121;
+        padding: 2px 4px;
+        font-size: 9px;
+        box-shadow: 5px 5px 5px 0px rgb(173, 173, 173);
+        transition: .2s linear;
+    }
+
+    .nav_button_open {
+        display: flex;
+        justify-content: center;
+    }
+}
